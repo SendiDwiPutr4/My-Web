@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>Sendi Dwi Putra</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="w3-container">
+        <div class=" w3-white w3-wide w3-padding w3-card">
+          <a href="#" class="w3-bar-item w3-button" style="color: red;"><b>Sendi Dwi<br> Putra</b></a>
+          <div class="w3-right w3-padding">
+            <button class="w3-bar-item w3-button" onclick="openLink('Home')">HOME</button>
+            <button class="w3-bar-item w3-button" onclick="openLink('About')">ABOUT</button>
+            <button class="w3-bar-item w3-button" onclick="openLink('Contact')">CONTACT</button>
+            <div class="w3-dropdown-hover">
+                <a href="" class="w3-button">OTHERS</a>
+                <div class="w3-dropdown-content w3-bar-block">
+                  <a href="https://instagram.com/p4sep_/" class="w3-bar-item w3-button">INSTAGRAM</a>
+                  <a href="https://tiktok.com/@luciferslave4/" class="w3-bar-item w3-button">TIKTOK</a>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div id="Home" class="w3-container link w3-animate-fading" style="display:block">
+        <table class="w3-table">
+          <tr>
+            <th><img src="./css/snd.jpeg" alt=""></th>
+            <th><div class="w3-panel w3-padding-64">
+              <p class="w3-xlarge w3-padding-64" style="margin-top:-40px">
+                <br><br><br>Selamat datang di blog — ya, sudah jelas, kan — Sendi Dwi Putra! Blog ini berisi informasi tentang Sendi, tulisan-tulisannya tentang apapun, serta kode cheat di game Valorant.</p>
+            </div></th>
+          </tr>
+          </table>
+       </div>
+       <div id="About" class="w3-container link w3-animate-right" style="display:none">
+        <h2 class="w3-center"><b>About</b></h2>
+        <p></p>
+        <table class="w3-table w3-padding-24">
+          <tr>
+            <th>Halo, saya Sendi Dwi Putra. Seorang Programmer yang kebetulan bikin<br> video juga di Tiktok. Sedang sibuk menikmati hidup dengan cara<br> menjalaninya. Biasa diucapkan selamat pada tanggal 21 juni.</th>
+            <th><h2 style="color: brown;"><b>SENDI DWI PUTRA</b></h2></th>
+          </tr>
+          </table>
+          <p></p>
+          <img src="./css/kom.jpg" alt="Default Image" class="w3-image"><br>
+          <p style="justify-content: center;">Saya mengambil jurusan Teknik Informatika di Universitas Komputer Indoensia dan ingin lulus tepat waktu aamiin. Terdengar tidak penting, tapi setidaknya saya bisa memulai obrolan dengan, “…sebagai anak IF,”</p>
+          <p>Saya suka dengerin lagu Danilla, Payung Teduh, dan Banda Neira. Memang banyak yang sudah bubar, tapi tidak penting karena yang lebih penting lagunya enak-enak. Saya suka nonton film atau series, sesekali juga suka baca buku, tapi itu kalo udah capek main game.</p>
+          <p>Sedikit hal tentang blog ini, semua tulisan saya sebisa mungkin dikemas dengan serius, tapi ada bercandanya. Karena saya kalo bercanda memang serius.</p>
+          <h2 class="w3-center" style="color: grey;"><b>WHAT I DO?</b></h2>
+       </div>
+       <div id="Contact" class="w3-container link w3-animate-right" style="display:none">
+        <div class="w3-container w3-center w3-panel w3-card-4">
+          <h1 style="color: brown;"><b>Contact Me</b></h1>
+          <form action="" class="w3-padding">
+            <input class="w3-input w3-border" type="name" placeholder="Enter Your Name">
+            <p></p>
+            <input class="w3-input w3-border" type="email" placeholder="Enter Your Email">
+            <p></p>
+            <input class="w3-input w3-border" type="subject" placeholder="Subject">     
+            <P></P>
+            <textarea class="w3-input w3-border" placeholder="Enter text"></textarea>
+            <p></p>
+            <button class="w3-button w3-blue">Submit</button>
+          </form>
+        </div>
+       </div>
+       <script>
+       function openLink(namaLink) {
+        var i;
+        var x = document.getElementsByClassName("link");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        document.getElementById(namaLink).style.display = "block";
+       }
+       </script>         
+</body>
+</html>
